@@ -1,25 +1,25 @@
 body{
     font-family: 'Catamaran', sans-serif;
-    color: whitesmoke;
+    color: #c2255c;
+    margin: 0;
 }
 
 section{
-    background-color: #243e1e
-    ;
-    
+    background-color: #868e96;
+      
 }
 
 .hero{
-    background-color: #243e1e;
+    background-color: #868e96;
     height: 100vh;
-    color: pink;
+    color: #c2255c;
     font-size: 40px;
 
 }
 
 footer {
-    background-color: #243e1e;
-    color: white;
+    background-color: #868e96;
+    color: #c2255c;
     text-align: center;
     padding: 80px;
 }
@@ -27,6 +27,8 @@ footer {
 nav{
     display: flex;
     justify-content: space-between;
+    flex-direction: right;
+    
 
 }
 ul {
@@ -55,6 +57,7 @@ h2{
 
 p{
     margin: 0;
+    font-weight: 100;
     font-size: 30px;
 }
 
@@ -79,15 +82,16 @@ p{
     width: 200px;
     height: 55px;
     border-radius: 30px;
-    background-color: coral;
+    background-color: #e64980;
     text-align: center;
     padding-top: 5px;
     font-size: 30px;
     margin-top: 20px;
+    font-weight: 100px;
 }
 
 .button:hover{
-    background-color: #ef744b;
+    background-color: #343a40;
 }
 
 .button:active {
@@ -140,7 +144,7 @@ p{
     height: 500px;
     box-shadow: 5px 5px 20px;
     margin: 10px;
-    color: white
+    color: #e64980
 }
 
 .project-container {
@@ -162,7 +166,7 @@ p{
     width: 300px;
     border-radius: 125px;
     display: flex;
-    justify-content: space-around;
+   
 
 }
 
@@ -173,21 +177,18 @@ hr{
 
 .project-link{
     text-decoration: none;
-    color: coral
+    color: black
 }
 
 a{
     text-decoration: none;
-    color: white;
+    color: #faa2c1;
 }
 
 
 .hamburger {
     display: none; 
-    border: 0;
-    background-color: transparent; 
-    color: white;
-    font-size: 30px; 
+
 }
 
 .hamburger:focus{
@@ -207,14 +208,15 @@ a{
 
     ul {
         display: none;
-        background-color: #dcb584;
+        background-color: #e64980;
         margin: 0px;
     }
 
     nav{
         display: flex;
         flex-direction: column-reverse;
-        background-color: #dcb584;
+        background-color: #e64980;
+
 
         
     }
